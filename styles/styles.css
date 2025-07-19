@@ -1,26 +1,36 @@
+:root {
+    --primary-color: darkblue;
+    --text-color: white;
+    --border-color: #000;
+    --aside-bg-color: #eee;
+    --aside-text-color: #333;
+    --border-width: 1px;
+    --spacing-unit: 1rem;
+}
+
 main {
     max-width: 840px;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border-width) solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -31,11 +41,11 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    margin: var(--spacing-unit);
+    border: var(--border-width) solid rgb(0 0 0 / 0.2);
+    padding: var(--spacing-unit);
+    background-color: var(--aside-bg-color);
+    color: var(--aside-text-color);
     text-align: center;
 }
 
@@ -46,6 +56,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--border-width) solid var(--border-color);
     text-align: center;
 }
