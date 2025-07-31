@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | HTML form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Fullname</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="useremail">User Email</label><br>
+                <input type="email" id="useremail" name="useremail"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="mozilla firefox">Mozilla Firefox</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <label for="pet">Do you have a household pet?</label><br>
+                <input type="checkbox" id="pet" name="pet"><br>
+                <label for="feedback">List the places you have lived</label><br>
+                <textarea id="feedback" name="feedback" rows="3" placeholder="Accra, Kumasi, Lagos, Tema"></textarea><br>
+            </fieldset>
+            <input type="submit" value="submit">
+            
+        </form>
+    </main>
+    <footer>
+        <p>©️2025 | HTML form - User Poll Activity | Teye Nathaniel Jeff</p>
+    </footer>
+</body>
+</html>
