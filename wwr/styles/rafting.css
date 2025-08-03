@@ -4,7 +4,7 @@
     --accent1-color: #C49BBB;
     --accent2-color: #588157;
     --heading-font: "Open San", sans-serif;
-    --text-font: "winky Rough", sans-serif;
+    --text-font: "Raleway", sans-serif;
 
 }
 
@@ -21,6 +21,7 @@ body {
 }
 
 header {
+    font-family: "Open San", sans-serif;
     background-color: #e1ca96;
     display: grid;
     grid-template-columns: auto 1fr auto;
