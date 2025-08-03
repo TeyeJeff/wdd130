@@ -124,7 +124,7 @@ nav .link:hover {
 }
 
 .adventures h2 {
-    font-family: var(--accent2-color);
+    font-family: var(--heading-font);
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #588157;
