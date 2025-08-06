@@ -303,7 +303,7 @@ form {
     display: grid;
 }
 
-.input [type="checkbox"] , .input [type="radio"] {
+input [type="checkbox"] , input [type="radio"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
@@ -321,4 +321,8 @@ button {
 
 button:hover {
     background-color: navy;
+}
+
+h4 {
+    color: var(--accent1-color);
 }
