@@ -44,7 +44,7 @@ nav ul {
     gap: 1rem;
 }
 
-nav .link {
+.link {
     text-decoration: none;
     transition: background-color 0.7s;
     color: #96C9dc;
@@ -54,7 +54,7 @@ nav .link {
     background-color: #588157;
 }
 
-nav .link:hover {
+.link:hover {
     background-color: #fff;
 }
 
@@ -193,7 +193,6 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: black;
     color: #fff;
 }
 
@@ -402,5 +401,74 @@ h4 {
     border-radius: 5px;
 }
 
+.trip-types {
+    padding: 2.5rem 0;
+    background-color: beige;
+}
+
+.trip-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.trip-details {
+    padding: 1rem;
+}
+
+.trip-details h2 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.trip-details p {
+    margin-bottom: 1rem;
+}
+
+.trip-table {
+  padding: 2rem 0;
+  background-color: beige;
+}
+
+.trip-table .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.trip-table h2 {
+  font-size: 1.5rem;
+  color: #1a3c34;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #1a3c34;
+  color: var(--accent2-color);
+}
+
+td a {
+  display: block;
+  text-align: center;
+}
+
+.customer-feedback h2 {
+    color: #2d3748;
+}
 
 
