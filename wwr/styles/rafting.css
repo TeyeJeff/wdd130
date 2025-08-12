@@ -18,21 +18,23 @@ body {
     font-family: var(--text-font);
     color: var(--secondary-color);
     line-height: 1.6;
+    background-color: white;
 }
 
 header {
-    font-family: "Open San", sans-serif;
-    background-color: #e1ca96;
+    font-family: var(--heading-font);
+    background-color: #2d3748;
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #588157;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 170px;
 }
 
 header .logo {
-    width: 250px;
+    width: 150px;
     height: auto;
     margin-right: 1rem;
 }
@@ -62,12 +64,11 @@ nav ul {
     position: relative;
     text-align: center;
     padding: 2rem 0;
-    background-color: #e1ca96;
 }
 
 .hero h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
     font-size: 2.5rem;
     margin: 1rem 0;
     align-items: center;
@@ -224,7 +225,6 @@ article {
 .contact h1 {
     font-family: var(--heading-font);
     color: #588157;
-    background-color: var(--primary-color);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -391,19 +391,16 @@ h4 {
     position: relative;
     text-align: center;
     padding: 2rem 0;
-    background-color: #e1ca96;
 }
 
 .newsletter {
     padding: 2rem 0;
-    background-color: beige;
     text-align: center;
     border-radius: 5px;
 }
 
 .trip-types {
     padding: 2.5rem 0;
-    background-color: beige;
 }
 
 .trip-content {
@@ -430,7 +427,6 @@ h4 {
 
 .trip-table {
   padding: 2rem 0;
-  background-color: beige;
 }
 
 .trip-table .container {
@@ -471,4 +467,8 @@ td a {
     color: #2d3748;
 }
 
+footer {
+    border-top: 1px solid #2d3748;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
